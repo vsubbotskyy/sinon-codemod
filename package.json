@@ -16,9 +16,9 @@
     "prettier": "^1.11.1"
   },
   "scripts": {
-    "test": "yarn run lint && jest",
-    "fix": "yarn run eslint --fix & yarn run prettier --write & wait",
-    "lint": "yarn run eslint & yarn run prettier -l & wait",
+    "test": "npm run lint && jest",
+    "fix": "npm run eslint --fix & npm run prettier --write",
+    "lint": "npm run eslint & npm run prettier -l",
     "prettier": "prettier README.md package.json",
     "eslint": "eslint ."
   },
